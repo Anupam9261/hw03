@@ -60,6 +60,10 @@ int main()
             }
             i++;//increment i
         }
+        else // If user enters an invalid input
+        {
+            cout<<"Invalid Input, Please retry from the given choices";
+        }
     }
     while (usr_choice < 5);
 
